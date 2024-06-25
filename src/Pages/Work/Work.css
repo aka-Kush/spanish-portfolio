@@ -1,0 +1,259 @@
+.timeline-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 120px 10px 50px;
+    position: relative;
+    /* height: 100vh; */
+}
+
+.line{
+    height: 150px;
+    border: 1px solid rgba(119, 136, 153, 0.205);
+    margin: 10px;
+}
+
+.timeline-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    /* border: 2px solid black; */
+    position: relative;
+    margin: -10px;
+}
+
+.circle-one{
+    background-color: white;
+    border: 3px solid lightcoral;
+}
+
+.circle-one:hover{
+    background-color: lightcoral;
+}
+
+.circle-two{
+    border: 3px solid lightgreen;
+}
+
+.circle-two:hover{
+    background-color: lightgreen;
+}
+
+.circle-three{
+    border: 3px solid lightpink;
+}
+
+.circle-three:hover{
+    background-color:lightpink;
+}
+
+.circle-four{
+    border: 3px solid lightskyblue;
+}
+
+.circle-four:hover{
+    background-color: lightskyblue;
+}
+
+.circle-five{
+    border: 3px solid #0099ff;
+}
+
+.circle-five:hover{
+    background-color:#0099ff;
+}
+
+.circle-six{
+    border: 3px solid rgba(212, 91, 236, 0.548);
+}
+
+.circle-six:hover{
+    background-color:rgb(212, 91, 236);
+}
+
+.timeline-card-content{
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.timeline-card-common{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.timeline-card{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    perspective: 1000px;
+}
+
+.timeline-card-1{
+    top: 100px;
+    right: 200px;
+}
+
+.timeline-card-1:hover .timeline-card-content{
+    transform: rotateY(180deg);
+}
+
+.timeline-card-2{
+    top: 270px;
+    left: 200px;
+}
+
+.timeline-card-2:hover .timeline-card-content{
+    transform: rotateY(180deg);
+}
+
+.timeline-card-3{
+    top: 435px;
+    right: 200px;
+}
+
+.timeline-card-3:hover .timeline-card-content{
+    transform: rotateY(180deg);
+}
+
+.timeline-card-4{
+    top: 605px;
+    left: 200px;
+}
+
+.timeline-card-4:hover .timeline-card-content{
+    transform: rotateY(180deg);
+}
+
+.timeline-card-5{
+    top: 775px;
+    right: 200px;
+}
+
+.timeline-card-5:hover .timeline-card-content{
+    transform: rotateY(180deg);
+}
+
+.timeline-card-6{
+    top: 945px;
+    left: 200px;
+}
+
+.timeline-card-6:hover .timeline-card-content{
+    transform: rotateY(180deg);
+}
+
+.timeline-card-front-common{
+    /* background-color: rgba(197, 85, 207, 0.473); */
+    border: 1px solid lightslategray;
+    /* color: white; */
+    /* color: #000; */
+}
+
+.timeline-card-back-common{
+    /* color: #000; */
+    border: 1px solid lightslategray;
+    transform: rotateY(180deg);
+}
+
+.timeline-card-front-common h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.timeline-card-front-common{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+
+.timeline-card-front-common span{
+    font-size: 1.3rem;
+    font-weight: 300;
+    /* color: rgba(255, 255, 255, 0.932); */
+    margin-inline: auto;
+}
+
+.timeline-card-back-common{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeline-card-back-common h4{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.timeline-card-back-common span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.wave{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+@media screen and (max-width: 720px){
+    .line{
+        display: none;
+    }
+    .timeline-circle{
+        display: none;
+    }
+    .cards-container{
+        display: flex;
+        position: relative;
+        width: 100%;
+        /* margin: auto; */
+    }
+    .timeline-card-1{
+        top: 0;
+        left: 25px;
+    }
+    .timeline-card-2{
+        top: 200px;
+        left: 25px;
+    }
+    .timeline-card-3{
+        top: 400px;
+        left: 25px;
+    }
+    .timeline-card-4{
+        top: 600px;
+        left: 25px;
+    }
+    .timeline-card-5{
+        top: 800px;
+        left: 25px;
+    }
+    .timeline-card-6{
+        top: 1000px;
+        left: 25px;
+    }  
+    .timeline{
+        height: 100vh;
+    }  
+}

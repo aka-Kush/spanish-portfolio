@@ -1,0 +1,60 @@
+.container{
+    /* background-color: red; */
+    width: 75%;
+    margin: auto;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.container span{
+    color: lightcoral;
+}
+
+.container > span{
+    color: slategrey;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 60px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 132, 255);;
+}
+
+a:hover{
+    color: slategrey;
+}
+
+@media screen and (max-width: 700px){
+    .container h2{
+        font-size: 40px;
+    }
+    .container > span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container{
+        margin-top: 160px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+    .container > span{
+        font-size: 18px;
+    }
+}
