@@ -1,11 +1,12 @@
 import "./Home.css"
+import Images from "../../Images"
 
 const Home = () => {
   
   return (
     <div className="home-container">
       <div className="home-image">
-        <img src="/src/assets/image.jpg" alt="Owner image" />
+        <img src={Images.homeImg} alt="Owner image" />
       </div>
       <div className="about-section">
         <h2 className="hola">Hola!</h2>

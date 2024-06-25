@@ -1,4 +1,5 @@
 import './Contact.css'
+import Images from "../../Images"
 
 const Contact = () => {
   return (
@@ -13,7 +14,7 @@ const Contact = () => {
             <div className='header'>
                 {/* <h3>Have a query? <br />
                 <span>Feel free to contact me!</span></h3> */}
-                <img src="/src/assets/contact.jpg" alt="" />
+                <img src={Images.contactImg} alt="" />
             </div>
             <div className='input-section'>
 
