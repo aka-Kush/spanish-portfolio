@@ -164,6 +164,7 @@
 .timeline-card-back-common{
     /* color: #000; */
     border: 1px solid lightslategray;
+    transform: rotateX(0deg);
     transform: rotateY(180deg);
 }
 
@@ -175,6 +176,7 @@
 }
 
 .timeline-card-front-common{
+    transform: rotateX(0deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
