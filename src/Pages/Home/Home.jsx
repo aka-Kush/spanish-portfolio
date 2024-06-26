@@ -1,12 +1,18 @@
 import "./Home.css"
 import Images from "../../Images"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 const Home = () => {
-  
+    
   return (
     <div className="home-container">
-      <div className="home-image">
-        <img src={Images.homeImg} alt="Owner image" />
+      <div className="home-image blur-div">
+        <LazyLoadImage 
+          src={Images.pfp}
+          effect="blur"
+          placeholderSrc={Images.pfpBlur}
+          className="lazy-image"
+        />
       </div>
       <div className="about-section">
         <h2 className="hola">Hola!</h2>

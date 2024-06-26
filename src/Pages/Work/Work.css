@@ -47,19 +47,19 @@
 }
 
 .circle-three{
-    border: 3px solid lightpink;
-}
-
-.circle-three:hover{
-    background-color:lightpink;
-}
-
-.circle-four{
     border: 3px solid lightskyblue;
 }
 
+.circle-three:hover{
+    background-color:lightskyblue;
+}
+
+.circle-four{
+    border: 3px solid rgba(212, 91, 236, 0.548);;
+}
+
 .circle-four:hover{
-    background-color: lightskyblue;
+    background-color: rgba(212, 91, 236, 0.548);;
 }
 
 .circle-five{
@@ -68,14 +68,6 @@
 
 .circle-five:hover{
     background-color:#0099ff;
-}
-
-.circle-six{
-    border: 3px solid rgba(212, 91, 236, 0.548);
-}
-
-.circle-six:hover{
-    background-color:rgb(212, 91, 236);
 }
 
 .timeline-card-content{
@@ -251,6 +243,7 @@
     }  
     .timeline{
         height: 100vh;
+        margin-bottom: 200px;
     }  
     /* .timeline-card-back-common:hover .timeline-card-content{
         transform: rotateY(360deg);
