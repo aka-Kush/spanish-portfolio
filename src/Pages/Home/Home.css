@@ -29,12 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/src/assets/pfp-blur.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: white;
     border-radius: 100%;
-    /* min-height: 500px; */
-    /* min-width: 500px; */
 }
 
 .lazy-image{
