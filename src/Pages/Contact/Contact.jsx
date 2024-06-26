@@ -12,8 +12,6 @@ const Contact = () => {
             <div className="nav-btns"></div>
           </div>
             <div className='header'>
-                {/* <h3>Have a query? <br />
-                <span>Feel free to contact me!</span></h3> */}
                 <img src={Images.contactImg} alt="" />
             </div>
             <div className='input-section'>
