@@ -39,7 +39,7 @@ const Navbar = () => {
         <ul className="navbar-ul">
           <li className="logo-li">
             <div className="circle"></div>
-            <h1>Ira Thakur</h1>
+            <h1 className="nav-title">Ira Kushwaha</h1>
           </li>
           <li>
             <a href="/about" className="nav-li-child hideNavLink" id="home">About</a>

@@ -24,30 +24,6 @@
     font-size: 1.2rem;
 }
 
-/* .speech-bubble {
-	position: relative;
-	background: #00aabb;
-	border-radius: .4em;
-    width: 200px;
-    height: 120px;
-    margin-left: 20px;
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 38px solid transparent;
-	border-top-color: #00aabb;
-	border-bottom: 0;
-	border-left: 0;
-	margin-left: -19px;
-	margin-bottom: -38px;
-} */
-
 .home-image{
     /* background-color: red; */
     display: flex;
@@ -59,6 +35,32 @@
     object-fit: cover;
     height: 400px;
     width: 700px;
+}
+
+.links{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-link, .contact-link{
+    margin-right: 50px;
+    color: #0084FF;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.resume-link:hover, .contact-link:hover{
+    color: #0084ff8f;
+    
+}
+
+.resume-icon, .contact-icon{
+    color: rgba(0, 0, 0, 0.849);
 }
 
 /* Responsive */
@@ -101,4 +103,21 @@
     .desc{
         font-size: 1.1rem;
     }
+}
+
+@media screen and (max-width:420px) {
+        .resume-link, .contact-link{
+            margin-right: 30px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        
+        .resume-icon, .contact-icon{
+            font-size: 0.9rem;
+            color: rgba(0, 0, 0, 0.849);
+        }
+
+        .links{
+            margin-bottom: 100px;
+        }
 }
