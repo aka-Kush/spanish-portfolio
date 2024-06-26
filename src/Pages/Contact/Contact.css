@@ -87,20 +87,16 @@ textarea{
 button{
     padding: 12px;
     margin-top: 30px;
-    /* width: 300px; */
     width: 80%;
-    /* border: 1px solid slategrey; */
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.281);
-    /* border: none; */
     outline: none;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
     background-image: linear-gradient(120deg,#edf48f 0%, #84fab0 100%);
     transition: all 0.5s ease;
-    
+    color: rgba(0, 0, 0, 0.788);
 }
 
 /* button:hover{
