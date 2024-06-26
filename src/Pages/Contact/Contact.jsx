@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
         <form action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="542a6e42-d58a-4610-85ce-0d5f1b56a944"></input>
+          <input type="hidden" name="access_key" value="29338228-7382-4db4-bd6f-a9bf15aa164f"></input>
           <div className='nav-header'>
             <div className="nav-btns"></div>
             <div className="nav-btns"></div>
