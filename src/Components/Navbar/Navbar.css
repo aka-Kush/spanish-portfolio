@@ -14,12 +14,12 @@
 
 .sidebar-ul{
     position: fixed;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     top: 0;
-    right: 0;
+    right: -300px;
     list-style: none;
     height: 100vh;
     width: 300px;
@@ -27,7 +27,7 @@
     background-color: white;
     border-left: 1px solid slategrey;
     padding: 20px;
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease; */
 }
 
 .sidebar-ul>li{
@@ -77,19 +77,18 @@
     font-size: 1.4rem;
 }
 
-#nav-sidebar{
+/* #nav-sidebar{
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 300px;
     height: 100%;
     width: 300px;
     z-index: 999;
     justify-content: start;
     align-items: flex-start;
-    transition: all 0.5s ease;
-}
+} */
 
 #logo-name{
     font-size: 1.6rem;
@@ -110,6 +109,24 @@
 .active{
     color: rgb(0, 132, 255);
     transition: all 0.5s ease;
+}
+
+.sidebar-open-animate{
+    animation: sidebar-open 0.5s ease-in-out;
+}
+
+.sidebar-close-animate{
+    animation: sidebar-close 0.5s ease-in-out;
+}
+
+@keyframes sidebar-open {
+    0%   {right: -300px}
+    100% {right: 0}
+}
+
+@keyframes sidebar-close {
+    0%   {right: 0};
+    100% {right: -300px};
 }
 
 .nav-li-child:hover{

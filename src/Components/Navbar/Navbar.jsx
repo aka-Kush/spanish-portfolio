@@ -2,6 +2,20 @@ import { useEffect } from "react";
 import "./Navbar.css"
 
 const Navbar = () => {
+  
+  const sidebarClose = () => {
+    const sidebar = document.getElementById("sidebar")
+    sidebar.classList.remove("sidebar-open-animate")
+    sidebar.classList.add("sidebar-close-animate")
+    sidebar.style.right = "-300px";
+  } 
+
+  const sidebarOpen = () => {
+    const sidebar = document.getElementById("sidebar")
+    sidebar.classList.remove("sidebar-close-animate")
+    sidebar.classList.add("sidebar-open-animate")
+    sidebar.style.right = 0;
+  }
 
   const activeNavLink = () => {
     const activePage = window.location.pathname;
@@ -23,16 +37,7 @@ const Navbar = () => {
     activeNavLink();
   },[])
 
-  
-  const sidebarClose = () => {
-    const sidebar = document.getElementById("sidebar")
-    sidebar.style.display = "none";
-  }
 
-  const sidebarOpen = () => {
-    const sidebar = document.getElementById("sidebar")
-    sidebar.style.display = "flex";
-  }
 
   return (
       <nav id="navbar">
@@ -62,7 +67,7 @@ const Navbar = () => {
             <i className="fa-solid fa-xmark close-btn" onClick={sidebarClose}></i>
           </li>
           <li>
-            <a href="/about" className="sidebar-li-child" id="home">About</a>
+            <a href="/about" className="sidebar-li-child" id="homeSidebar">About</a>
           </li>
           <li>
             <a  href="/work" className="sidebar-li-child">Work</a>
