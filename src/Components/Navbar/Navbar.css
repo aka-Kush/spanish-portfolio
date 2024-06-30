@@ -77,6 +77,14 @@
     font-size: 1.4rem;
 }
 
+.menu-btn:active{
+    -webkit-tap-highlight-color: transparent;
+}
+
+.close-btn:active{
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* #nav-sidebar{
     display: flex;
     flex-direction: column;
