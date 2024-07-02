@@ -7,43 +7,23 @@ const Slide = () => {
 
     const data = [
         {
-            name: "Ritika Kush",
-            company: "Amex",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
+            name: "Gautam Ghanesh",
+            company: "Student",
+            review: "Ms. Ira is really good at teaching. She helps me whenever I don't understand any words. And also keeps me engaged and ready to learn all throughout the class.",
             color: "red"
         },
         {
-            name: "Shivansh Kush",
-            company: "TCS",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
+            name: "Kavish Chanda",
+            company: "Student",
+            review: "Ira is an excellent Spanish teacher. She teaches various aspects of the Spanish language exceptionally well. She incorporates a lot of detail into every aspect of Spanish, which facilitates learning the language. Overall, she is a very kind and hardworking teacher",
             color: "red"
         },
         {
-            name: "Eminem",
-            company: "Hip Hop",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
-            color: "red"
+            name: "Mansi Karwal",
+            company: "Student's Parent",
+            review: "Ira has been teaching Spanish to my daughter for a few months now. Her dedication to students is clearly evident in how she manages their learning process and provides ongoing support. My daughter enjoys her teaching style and eagerly anticipates her Spanish class.",
+            color: "red"        
         },
-        {
-            name: "Doja Cat",
-            company: "Meow",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
-            color: "red"        },
-        {
-            name: "Natasha",
-            company: "Amazon",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
-            color: "red"        },
-        {
-            name: "Kirmada",
-            company: "Imagine LTD",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
-            color: "red"        },
-        {
-            name: "Chota Bheem",
-            company: "Dholakpur",
-            review: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora maiores officia veniam doloribus dicta laudantium alias sapiente! Ex, saepe! Accusamus, exercitationem unde? Ipsam, inventore ex. Laborum sequi fuga corrupti delectus architecto accusantium, asperiores atque eaque est accusamus, modi labore vitae reiciendis, molestiae autem veritatis qui eligendi mollitia earum doloribus veniam!",
-            color: "red"        }
     ] 
 
     const settings = {
