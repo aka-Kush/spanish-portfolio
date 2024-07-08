@@ -27,7 +27,7 @@ const Slide = () => {
         {
           name: "Meghna Burathoki",
           company: "Teacher",
-          review: "Ira, a dedicated Spanish language graduate from Amity University, has consistently shown obedience, confidence, and a strong grasp of both Spanish and Latin American cultures. Her deep understanding of history and literature enriches her expertise, making her an ideal educator poised to inspire future generations with her natural aptitude for instruction and passion for learning.",
+          review: "Ira, a dedicated graduate of Spanish from Amity University, consistently shows confidence and a strong grasp of Spanish and Latin American cultures. With deep expertise in history and literature, she's poised to inspire future generations with her natural teaching ability and passion for learning.",
           color: "red"        
       },
     ] 
