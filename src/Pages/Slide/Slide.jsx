@@ -24,6 +24,12 @@ const Slide = () => {
             review: "Ira has been teaching Spanish to my daughter for a few months now. Her dedication to students is clearly evident in how she manages their learning process and provides ongoing support. My daughter enjoys her teaching style and eagerly anticipates her Spanish class.",
             color: "red"        
         },
+        {
+          name: "Meghna Burathoki",
+          company: "Teacher",
+          review: "Ira, a dedicated Spanish language graduate from Amity University, has consistently shown obedience, confidence, and a strong grasp of both Spanish and Latin American cultures. Her deep understanding of history and literature enriches her expertise, making her an ideal educator poised to inspire future generations with her natural aptitude for instruction and passion for learning.",
+          color: "red"        
+      },
     ] 
 
     const settings = {
